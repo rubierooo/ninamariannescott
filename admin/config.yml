@@ -1,0 +1,23 @@
+backend:
+  name: github
+  repo: rubierooo/ninamariannescott  # Replace with your GitHub username and repo name
+  branch: main
+
+media_folder: "static/images"  # Where images will be stored in your repo
+public_folder: "/images"       # URL path for media files
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "index.html"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "content", label: "Content", widget: "markdown" }
+
+auth:
+  github:
+    client_id: Ov23li1k8vXoYxd2RN7j
+    client_secret: 43e98427c370fd3a4de7487a0c6a8dd0438807e1
