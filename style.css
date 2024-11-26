@@ -1,0 +1,754 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap');
+body {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size:1em;
+}
+
+#mainContainer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+  }
+
+body.pink {
+  background-color: #ffe14c;
+  margin: 0px
+}
+
+body.black {
+  background-color: black;
+  margin: 0px;
+  color: #ffe14c;
+}
+
+.thing {
+  width: 300px;
+  height: auto;
+  margin-bottom: 10px
+}
+
+body.image {
+  background-image: url("essaybg.png");
+  background-color: ##ffe65d;
+  background-size: cover;
+  background-position: left;
+  background-attachment: fixed;
+  margin: 0px
+}
+
+body.para {
+  background-image: url("work/parachute.png");
+  background-size: contain;;
+  margin: 0px
+}
+
+h1 {
+  font-family: 'Princess Sofia', serif;
+  font-size: 2em;
+  margin-bottom: 0;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 0;
+  margin-top: 5px;
+  font-size: 1.3em;
+  letter-spacing: -1px;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+
+h4 {
+  margin-bottom: 0;
+  margin-top:5px;
+  font-size: inherit;
+  letter-spacing:3px;
+}
+
+div.wrapper {
+  float:right;
+  width: 60%;
+  margin-left: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+p {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 0;
+}
+
+ol {
+    margin-top: 0;
+}
+
+div.centre {
+  text-align: center;
+}
+
+.tlist {
+  width: 60%;
+  min-width: 20em;
+  max-width: 40em;
+  margin: auto;
+}
+
+h3 {
+ font-size: 1.5em;
+ margin-top: 0;
+}
+
+div.textblock {
+  text-align: right;
+  width: 60%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 150px;
+  padding-right: 150px;
+  float:left;
+}
+
+a {
+  text-decoration: none;
+  color: #e600e2;
+}
+
+a:hover {
+  background-color: #ff78fd;
+  color: black;
+}
+
+a.block {
+  box-sizing: border-box;
+  font-style: italic;
+  font-size: 1.2em;
+  padding-top: 2em;
+  display:block;
+  text-align: center;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0);
+}
+
+a.block:hover {
+  background-color: magenta;
+  color: #ffe14c;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5), -1px -1px 0px rgba(0, 0, 0, 0.5), 1px -1px 0px rgba(0, 0, 0, 0.5), -1px 1px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+p.menu {
+  margin-right: 2em;
+  margin-left: 0em;
+  margin-top: 0.2em;
+  margin-bottom: 1em;
+}
+
+.h {
+  visibility:hidden;
+}
+
+.menu:hover .h {
+  visibility:visible;
+}
+
+.item {
+  display: inline;
+  margin-left: -2em;
+  position: relative;
+  left: 3em;
+  margin-top: 0.2em;
+}
+
+.item::after {
+  content:"";
+  display: block;
+  height: 0.3em;
+}
+
+
+p.halfacross {
+  width: 50%;
+  padding-left: 50%;
+}
+
+
+.banner {
+  width: 100%;
+  height: 10%;
+  background-image: url("title.png");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.cv {
+  width:67%;
+  height:8%;
+  background-image: url("cv.png");
+  background-position: left;
+  background-size: cover;
+  float: right;
+  background-repeat: no-repeat;
+}
+
+.bandcamp {
+  width:33%;
+  height:8%;
+  background-image: url("buymusic.png");
+  background-position: left;
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.writing {
+  width:33%;
+  height:8%;
+  background-image: url("writing.png");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.works {
+  width:34%;
+  height:8%;
+  background-image: url("work.png");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.insta {
+  width:33%;
+  height:8%;
+  background-image: url("insta.png");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float:left;
+}
+
+.twitter {
+  width:33%;
+  height:8%;
+  background-image: url("twitter.png");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float:left;
+}
+
+.email {
+  width:33%;
+  height:8%;
+  background-image: url("email.png");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float:right;
+}
+
+.audio {
+  width:33%;
+  height:8%;
+  background-image: url("audio.png");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.video {
+  width:34%;
+  height:8%;
+  background-image: url("video.png");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+
+
+
+
+.swisschurch  {
+  width: 400px;
+  height: 450px;
+  background-image: url("work/swisschurch.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.artefact  {
+  width: 300px;
+  height: 300px;
+  background-image: url("work/artefact.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.borealis  {
+  width: 200px;
+  height: 250px;
+  background-image: url("work/borealis.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.BSOB  {
+  font-size: 1.5em;
+  width: 400px;
+  height: 300px;
+  background-image: url("work/BSOB.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.takeboth  {
+  text-align: right;
+  width: 400px;
+  height: 300px;
+  background-image: url("work/takeboth.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.tbt {
+    width:200px;
+    height:200px;
+    background-image: url("work/tbt.png");
+    background-size: contain;
+}
+
+.dangler {
+  writing-mode: vertical-rl;
+  width: 200px;
+  height: 300px;
+  background-image: url("work/dangler.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.tallmic {
+  width: 100px;
+  height: 300px;
+  background-image: url("work/tallmic.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.belyingifi {
+  width: 200px;
+  height: 150px;
+  background-image: url("work/belyingifi.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.seasong {
+  padding-top: 0;
+  width: 400px;
+  height: 150px;
+  background-image: url("work/seasong.png");
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.sunsetsinging {
+  width: 200px;
+  height: 100px;
+  background-image: url("work/sunsetsinging.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.oyropeandream {
+  width: 90px;
+  height: 110px;
+  background-image: url("work/oyropeandream.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.daughter2 {
+  width: 300px;
+  height: 100px;
+  background-image: url("work/daughter2.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.between {
+  width: 100px;
+  height: 400px;
+  background-image: url("work/between.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.mud {
+  width: 200px;
+  height: 100px;
+  background-image: url("work/mud.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.londonbridge {
+  width: 100px;
+  height: 100px;
+  background-image: url("work/londonbridge.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.planes {
+  width: 200px;
+  height: 150px;
+  background-image: url("work/planes.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+.canonbury {
+  width: 100px;
+  height: 80px;
+  background-image: url("work/canonburysquare.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.beckroad {
+  width: 200px;
+  height: 200px;
+  background-image: url("work/beckroad.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+
+}
+
+.daughter {
+  width: 200px;
+  height: 120px;
+  background-image: url("work/daughter.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.guitar {
+  width: 100px;
+  height: 150px;
+  background-image: url("work/guitar.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.oldwivestales {
+  width: 200px;
+  height: 140px;
+  background-image: url("work/oldwivestales.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.parachute {
+  width: 200px;
+  height: 200px;
+  background-image: url("work/parachute.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.theelephant {
+  width: 100px;
+  height: 170px;
+  background-image: url("work/theelephant.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.twoartists {
+  width: 120px;
+  height:140px;
+  background-image: url("work/twoartists.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.wardrobe {
+  width: 150px;
+  height: 200px;
+  background-image: url("work/wardrobe.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.tapecharmer {
+  width: 100px;
+  height: 100px;
+  background-image: url("work/tapecharmer.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.organdance {
+  width: 300px;
+  height: 150px;
+  background-image: url("work/organdance.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.greatgreentour {
+  width: 200px;
+  height: 200px;
+  background-image: url("work/greatgreentour.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.blue {
+  width: 100px;
+  height: 150px;
+  background-image: url("work/blue.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+table {
+  width: 95%;
+  text-decoration: none;
+}
+
+tr td {
+  vertical-align: top;
+  padding-bottom: 3px;
+  padding-left: 5px;
+}
+
+td:nth-child(1) {
+  text-align: right;
+}
+
+div.mainMenu {
+  margin-left: auto;
+  text-align: right;
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+.menuItem {
+  font-size: 2em;
+  text-decoration: none;
+  color: black;
+}
+
+a.menuItem:hover {
+  background-color: magenta;
+}
+
+.LTmenuItem {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  padding: 0.7em;
+  margin: 1em;
+  display: block;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0,0,0,0.2);
+}
+
+a.LTmenuItem:hover {
+  background-color: magenta;
+  border-color: rgba(0,0,0,0);
+}
+
+
+div.workContainer {
+  width: 80%;
+  margin-left: auto;
+}
+
+.billingnote {
+  color: rgba(0,0,0,0.5);
+  font-size: 0.8em;
+  line-height: 0.9em
+}
+
+.posterbox {
+  margin-left:-10em;
+}
+
+@media screen and (max-width: 950px) {
+  div.wrapper{
+    width: 80%;
+    margin-left: 0px;
+  }
+  .works .bandcamp {
+    height: 10%;
+  }
+  div.textblock {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #ffe65d;
+  }
+  div.workContainer {
+    width: 100%;
+    margin-left: auto;
+  }
+
+  .posterbox {
+    margin-left:-10em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  div.wrapper{
+    width: 90%;
+    margin-left: 0;
+  }
+  .works .bandcamp {
+    height: 8%;
+  }
+  div.textblock {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ffe65d;
+  }
+  .posterbox {
+    margin-left:0em;
+  }
+}
